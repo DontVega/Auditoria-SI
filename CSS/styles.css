@@ -18,20 +18,18 @@ body {
     width: 100%;
 }
 
-/* Acá tengo los estilos del heaer */
+/* Acá tengo los estilos del header */
 
 header {
     background: #1f1f1f;
-    padding: 10px 50px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#logo {
-    width: 50px;
-}
-
-#logo img {
-    border-radius: 100%;
-    border: 2px solid #fff;
+.apellidos {
+    font-size: small;
+    color: #fff;
+    font-style: oblique;
 }
 
 /* Acá están los estilos del hero */
@@ -53,7 +51,11 @@ header {
     display: flex;
     width: 100%;
     color: #fff;
-    padding: 0 50px;
+    padding: 0px 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1vw;
+    max-width: 100%;
 }
 
 #hero .información-contenedor #foto {
@@ -76,16 +78,32 @@ header {
     margin-bottom: 70px;
 }
 
+#hero .información-contenedor .informacion a{
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 70px;
+}
+
 /* Estilos del main  */
 
 main {
     padding: 100px;
+    background: #191b1d;
+    color: #fff;
+}
+
+main .salto-alto-parrafo {
+    margin-bottom: 25px;
+}
+
+main .salto-bajo-parrafo {
+    margin-bottom: 10px;
 }
 
 main .social-icons {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 150px;
     list-style: none;
 }
 
