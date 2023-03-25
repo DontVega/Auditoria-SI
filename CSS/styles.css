@@ -18,20 +18,26 @@ body {
     width: 100%;
 }
 
-/* Acá tengo los estilos del heaer */
+.image-container2 {
+    display: flex;
+}
+.image-container2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Acá tengo los estilos del header */
 
 header {
     background: #1f1f1f;
-    padding: 10px 50px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#logo {
-    width: 50px;
-}
-
-#logo img {
-    border-radius: 100%;
-    border: 2px solid #fff;
+.apellidos {
+    font-size: small;
+    color: #fff;
+    font-style: oblique;
 }
 
 /* Acá están los estilos del hero */
@@ -40,43 +46,105 @@ header {
     position: relative;
 }
 
-#hero #computadora {
+#hero a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero #fondo{
     display: inline-block;
     width: 100%;
 }
 
 #hero .información-contenedor {
     position: absolute;
-    top: 50%;
+    top: 48%;
     transform: translateY(-50%);
-    left: 0;
+    left: 44%;
     display: flex;
-    width: 100%;
+    width: 56%;
     color: #fff;
     padding: 0 50px;
 }
-#hero .información-contenedor .titulo-principal {
-    margin-left: 20px;
+#hero .información {
     font-weight: bold;
-    width: calc(100% - 200px);
+    font-size: 43px;
+    width:calc(100% - 100px);
 }
-
-#hero .información-contenedor .informacion span{
+#hero .guias {
+    position: absolute;
+    top: 135%;
+    transform: translateY(-50%);
+    left: -2%;
+    display: flex;
+    width: 10%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 38px;
+    width:calc(100% - 20px);
+}
+#hero .información-contenedor .informacion a {
     display: inline-block;
-    color: #b5b5b5;
+    color: #fff;
     margin-bottom: 70px;
+}
+#hero2{
+    position: relative;
+}
+#fondo-c{
+    display: inline-block;
+    width: 100%;
+    height: 70%;
+}
+#hero2 .información-2 {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    left:10%;
+    display: flex;
+    width: 56%;
+    color: #fff;
+    padding: 0 50px;
+    font-weight: bold;
+    font-size: 43px;
+    width:calc(100% - 100px);
+}
+#hero2 .información-contenedor2 .información-2 a{
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 70px;
+    position: absolute;
+    top: 135%;
+    transform: translateY(-50%);
+    left: -2%;
+    display: flex;
+    width: 10%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 38px;
+    width:calc(100% - 20px);
 }
 
 /* Estilos del main  */
 
 main {
     padding: 100px;
+    background: #191b1d;
+    color: #fff;
+}
+
+main .salto-alto-parrafo {
+    margin-bottom: 25px;
+}
+
+main .salto-bajo-parrafo {
+    margin-bottom: 10px;
 }
 
 main .social-icons {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 150px;
     list-style: none;
 }
 
