@@ -280,6 +280,7 @@ main .salto-bajo-parrafo {
     margin-bottom: 20px;
 }
 
+
 main .social-icons {
     display: flex;
     justify-content: center;
@@ -320,14 +321,27 @@ main .social-icons #twitter{
 main .social-icons #github{
     background: #23272d;
 }
+/* Estilos de imagen de Conceptos */
 
-/* Estilos de imagen Conceptos */
+main #computing {
+    width: 19em;
+    border-radius: 100%;
+    float: right;
+    margin-left: 15px;
+    }
 
-/* Estilos de imagen Elementos */ 
-
-/* Estilos de imagen Normas */
-main #marco{ 
-width: 100%;
-float: right;
-margin-left: 15%;
+.salto-alto-parrafo #seccion2 #titulo-right {
+    font-size: 200px;
 }
+
+main #compu {
+    width: 22em;
+    border-radius: 5%;
+    float: left;
+    margin-right: 15px;
+    }
+
+main #elementos {
+    margin-bottom: 2em;
+    width: 100%;
+    }
