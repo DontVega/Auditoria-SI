@@ -268,17 +268,18 @@ header {
 /* Estilos del main  */
 
 main {
-    padding: 100px;
+    padding: 1% 10%;
     background: #191b1d;
     color: #fff;
 }
 
 main .salto-alto-parrafo {
+    margin-top: 70px; 
     margin-bottom: 25px;
 }
 
 main .salto-bajo-parrafo {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 main .social-icons {
