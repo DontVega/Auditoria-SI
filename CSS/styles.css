@@ -175,10 +175,10 @@ header {
     position: absolute;
     bottom: 435px;
     right: 3%;
-    width: 100%;
+    width: 88%;
     padding: 0.2em;
     color: white;
-    font-size: 2.4em;
+    font-size: 2.2em;
     text-align: right;
     z-index: 10;
     line-height: 1;
@@ -236,28 +236,26 @@ header {
     text-align: left;
     z-index: 10;
     line-height: 1;
-    background: #191b1d;
 }
 
 #hero4 .indice4 {
     position: absolute;
-    bottom: 300px;
-    left: 20%;
+    bottom: 275px;
+    left: 25%;
     width: 33%;
     padding: 0.2em;
     color: white;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align:left;
     z-index: 10;
-    line-height: 1;
-    background: #191b1d;
+    line-height: 1;;
 }
 #hero4 .volver4 {
     position: absolute;
     bottom: 85px;
     right: 11%;
-    width: 100%;
+    width: 15%;
     padding: 0.2em;
     color: white;
     font-size: 1.5em;
@@ -321,4 +319,15 @@ main .social-icons #twitter{
 
 main .social-icons #github{
     background: #23272d;
+}
+
+/* Estilos de imagen Conceptos */
+
+/* Estilos de imagen Elementos */ 
+
+/* Estilos de imagen Normas */
+main #marco{ 
+width: 100%;
+float: right;
+margin-left: 15%;
 }
