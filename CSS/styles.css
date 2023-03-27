@@ -52,7 +52,6 @@ header {
     color: #fff;
     font-style: oblique;
 }
-
 /* Acá están los estilos del hero */
 
 #hero{
@@ -146,7 +145,7 @@ header {
     position: absolute;
     bottom: 19px;
     left: 0;
-    width: 100%;
+    width: 30%;
     padding: 0.2em;
     color: white;
     font-weight: bold;
@@ -345,3 +344,36 @@ main #elementos {
     margin-bottom: 2em;
     width: 100%;
     }
+/* Estilos de imagen de Conceptos */
+main .video6{
+    text-align: center;
+}
+/* Estilos de imagen de Normas */
+
+main #imagn1{
+    margin: auto;
+    margin-bottom: 2em;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    padding: 50px;
+}
+main #imagn2{
+    margin: auto;
+    margin-bottom: 2em;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    padding: 50px;
+}
+main #imagn3{
+    margin: auto;
+    margin-bottom: 2em;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    padding: 50px;
+}
+main .video4{
+    text-align: center;
+}
